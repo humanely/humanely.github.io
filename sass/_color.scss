@@ -1,0 +1,381 @@
+
+$yel: #ffbb42;
+$red: #e13c4c;
+$yeldim: #e7a32a;
+$redmed: #ea6874;
+$grey: #EBEBEB;
+$white: #fff;
+$green: #4c7737;
+$greenorm: #3cda83;
+$greenligh: #62e59d;
+$pink: #d04275;
+$orang: #d37137;
+$orangnorm: #ff8137;
+$orangligh: rgba(238, 120, 50, 0.95);
+$orangnarr: rgba(218, 92, 42, 0.95);
+$aqua: #20bdd0;
+$blue: #73B4FF;
+$blueligh: #548dce;
+$bluemed: #2b70bf;
+$bluedod: #3f4bb8;
+$bluedim: #225690;
+$blueviol: #332b80;
+
+.yel,
+.search-block.yel header:before,
+.search-block.yel .title,
+.post-block.yel .post-cont-titl,
+.post-block.yel .post-ttl:before,
+.page-block.yel .page-block-title,
+.page-block.yel .post-ttl:before,
+.page-block.yel blockquote:before,
+.works-block.yel .hide-srl,
+.team-block.yel .hide-srl,
+.no-touch .yel:hover,
+.yel.hover,
+.post-site-yel-cont .site-post-ttl,
+.post-site-yel-cont .post-ttl:before,
+.post-site-yel-cont blockquote:before {
+	background: $yel;
+	outline-color: rgba($yel,.8)!important;
+}
+.red,
+.search-block.red header:before,
+.post-block.red .post-cont-titl,
+.post-block.red .post-ttl:before,
+.page-block.red .page-block-title,
+.page-block.red .post-ttl:before,
+.page-block.red blockquote:before,
+.works-block.red .hide-srl,
+.team-block.red .hide-srl,
+.no-touch .red:hover,
+.red.hover,
+.post-site-red-cont .site-post-ttl,
+.post-site-red-cont .post-ttl:before,
+.post-site-red-cont blockquote:before {
+	background: $red;
+	outline-color: rgba($red,.8)!important;
+}
+.yeldim,
+.search-block.yeldim header:before,
+.post-block.yeldim .post-cont-titl,
+.post-block.yeldim .post-ttl:before,
+.page-block.yeldim .page-block-title,
+.page-block.yeldim .post-ttl:before,
+.page-block.yeldim blockquote:before,
+.works-block.yeldim .hide-srl,
+.team-block.yeldim .hide-srl,
+.no-touch .yeldim:hover,
+.yeldim.hover,
+.post-site-yeldim-cont .site-post-ttl,
+.post-site-yeldim-cont .post-ttl:before,
+.post-site-yeldim-cont blockquote:before {
+	background: $yeldim;
+	outline-color: rgba($yeldim,0.8)!important;
+}
+.redmed,
+.search-block.redmed header:before,
+.post-block.redmed .post-cont-titl,
+.post-block.redmed .post-ttl:before,
+.page-block.redmed .page-block-title,
+.page-block.redmed .post-ttl:before,
+.page-block.redmed blockquote:before,
+.works-block.redmed .hide-srl,
+.team-block.redmed .hide-srl,
+.no-touch .redmed:hover,
+.redmed.hover,
+.post-site-redmed-cont .site-post-ttl,
+.post-site-redmed-cont .post-ttl:before,
+.post-site-redmed-cont blockquote:before {
+	background: $redmed;
+	outline-color: rgba($redmed,0.8)!important;
+}
+.grey,
+.search-block.grey header:before,
+.post-block.grey .post-cont-titl,
+.post-block.grey .post-ttl:before,
+.page-block.grey .page-block-title,
+.page-block.grey .post-ttl:before,
+.page-block.grey blockquote:before,
+.works-block.grey .hide-srl,
+.team-block.grey .hide-srl,
+.no-touch .grey:hover,
+.grey.hover,
+.post-site-grey-cont .site-post-ttl,
+.post-site-grey-cont .post-ttl:before,
+.post-site-grey-cont blockquote:before {
+	background: $grey;
+	outline-color: rgba($grey,0.8)!important;
+}
+.white,
+.search-block.white header:before,
+.post-block.white .post-cont-titl,
+.post-block.white .post-ttl:before,
+.page-block.white .page-block-title,
+.page-block.white .post-ttl:before,
+.page-block.white blockquote:before,
+.works-block.white .hide-srl,
+.team-block.white .hide-srl,
+.no-touch .white:hover,
+.white.hover,
+.post-site-white-cont .site-post-ttl,
+.post-site-white-cont .post-ttl:before,
+.post-site-white-cont blockquote:before {
+	background: $white;
+	outline-color: rgba($white,0.8)!important;
+}
+.green,
+.search-block.green header:before,
+.post-block.green .post-cont-titl,
+.post-block.green .post-ttl:before,
+.page-block.green .page-block-title,
+.page-block.green .post-ttl:before,
+.page-block.green blockquote:before,
+.works-block.green .hide-srl,
+.team-block.green .hide-srl,
+.no-touch .green:hover,
+.green.hover,
+.post-site-green-cont .site-post-ttl,
+.post-site-green-cont .post-ttl:before,
+.post-site-green-cont blockquote:before {
+	background: $green;
+	outline-color: rgba($green,0.8)!important;
+}
+.greenorm,
+.search-block.greenorm header:before,
+.post-block.greenorm .post-cont-titl,
+.post-block.greenorm .post-ttl:before,
+.page-block.greenorm .page-block-title,
+.page-block.greenorm .post-ttl:before,
+.page-block.greenorm blockquote:before,
+.works-block.greenorm .hide-srl,
+.team-block.greenorm .hide-srl,
+.no-touch .greenorm:hover,
+.greenorm.hover,
+.post-site-greenorm-cont .site-post-ttl,
+.post-site-greenorm-cont .post-ttl:before,
+.post-site-greenorm-cont blockquote:before {
+	background: $greenorm;
+	outline-color: rgba($greenorm,0.8)!important;
+}
+.greenligh,
+.search-block.greenligh header:before,
+.post-block.greenligh .post-cont-titl,
+.post-block.greenligh .post-ttl:before,
+.page-block.greenligh .page-block-title,
+.page-block.greenligh .post-ttl:before,
+.page-block.greenligh blockquote:before,
+.works-block.greenligh .hide-srl,
+.team-block.greenligh .hide-srl,
+.no-touch .greenligh:hover,
+.greenligh.hover,
+.post-site-greenligh-cont .site-post-ttl,
+.post-site-greenligh-cont .post-ttl:before,
+.post-site-greenligh-cont blockquote:before {
+	background: $greenligh;
+	outline-color: rgba($greenligh,0.8)!important;
+}
+.pink,
+.search-block.pink header:before,
+.post-block.pink .post-cont-titl,
+.post-block.pink .post-ttl:before,
+.page-block.pink .page-block-title,
+.page-block.pink .post-ttl:before,
+.page-block.pink blockquote:before,
+.works-block.pink .hide-srl,
+.team-block.pink .hide-srl,
+.no-touch .pink:hover,
+.pink.hover,
+.post-site-pink-cont .site-post-ttl,
+.post-site-pink-cont .post-ttl:before,
+.post-site-pink-cont blockquote:before {
+	background: $pink;
+	outline-color: rgba($pink,0.8)!important;
+}
+.orang,
+.search-block.orang header:before,
+.post-block.orang .post-cont-titl,
+.post-block.orang .post-ttl:before,
+.page-block.orang .page-block-title,
+.page-block.orang .post-ttl:before,
+.page-block.orang blockquote:before,
+.works-block.orang .hide-srl,
+.team-block.orang .hide-srl,
+.no-touch .orang:hover,
+.orang.hover,
+.post-site-orang-cont .site-post-ttl,
+.post-site-orang-cont .post-ttl:before,
+.post-site-orang-cont blockquote:before {
+	background: $orang;
+	outline-color: rgba($orang,0.8)!important;
+}
+.orangnorm,
+.search-block.orangnorm header:before,
+.post-block.orangnorm .post-cont-titl,
+.post-block.orangnorm .post-ttl:before,
+.page-block.orangnorm .page-block-title,
+.page-block.orangnorm .post-ttl:before,
+.page-block.orangnorm blockquote:before,
+.works-block.orangnorm .hide-srl,
+.team-block.orangnorm .hide-srl,
+.no-touch .orangnorm:hover,
+.orangnorm.hover,
+.post-site-orangnorm-cont .site-post-ttl,
+.post-site-orangnorm-cont .post-ttl:before,
+.post-site-orangnorm-cont blockquote:before {
+	background: $orangnorm;
+	outline-color: rgba($orangnorm,0.8)!important;
+}
+.orangligh,
+.search-block.orangligh header:before,
+.post-block.orangligh .post-cont-titl,
+.post-block.orangligh .post-ttl:before,
+.page-block.orangligh .page-block-title,
+.page-block.orangligh .post-ttl:before,
+.page-block.orangligh blockquote:before,
+.works-block.orangligh .hide-srl,
+.team-block.orangligh .hide-srl,
+.no-touch .orangligh:hover,
+.orangligh.hover,
+.post-site-orangligh-cont .site-post-ttl,
+.post-site-orangligh-cont .post-ttl:before,
+.post-site-orangligh-cont blockquote:before {
+	background: $orangligh;
+	outline-color: rgba(238, 120, 50,0.8)!important;
+}
+.orangnarr,
+.search-block.orangnarr header:before,
+.post-block.orangnarr .post-cont-titl,
+.post-block.orangnarr .post-ttl:before,
+.page-block.orangnarr .page-block-title,
+.page-block.orangnarr .post-ttl:before,
+.page-block.orangnarr blockquote:before,
+.works-block.orangnarr .hide-srl,
+.team-block.orangnarr .hide-srl,
+.no-touch .orangnarr:hover,
+.orangnarr.hover,
+.post-site-orangnarr-cont .site-post-ttl,
+.post-site-orangnarr-cont .post-ttl:before,
+.post-site-orangnarr-cont blockquote:before {
+	background: $orangnarr;
+	outline-color: rgba(218, 92, 42,0.8)!important;
+}
+.aqua,
+.search-block.aqua header:before,
+.post-block.aqua .post-cont-titl,
+.post-block.aqua .post-ttl:before,
+.page-block.aqua .page-block-title,
+.page-block.aqua .post-ttl:before,
+.page-block.aqua blockquote:before,
+.works-block.aqua .hide-srl,
+.team-block.aqua .hide-srl,
+.no-touch .aqua:hover,
+.aqua.hover,
+.post-site-aqua-cont .site-post-ttl,
+.post-site-aqua-cont .post-ttl:before,
+.post-site-aqua-cont blockquote:before {
+	background: $aqua;
+	outline-color: rgba($aqua,0.8)!important;
+}
+.blue,
+.search-block.blue header:before,
+.post-block.blue .post-cont-titl,
+.post-block.blue .post-ttl:before,
+.page-block.blue .page-block-title,
+.page-block.blue .post-ttl:before,
+.page-block.blue blockquote:before,
+.works-block.blue .hide-srl,
+.team-block.blue .hide-srl,
+.no-touch .blue:hover,
+.blue.hover,
+.post-site-blue-cont .site-post-ttl,
+.post-site-blue-cont .post-ttl:before,
+.post-site-blue-cont blockquote:before {
+	background: $blue;
+	outline-color: rgba($blue,0.8)!important;
+}
+.blueligh,
+.search-block.blueligh header:before,
+.post-block.blueligh .post-cont-titl,
+.post-block.blueligh .post-ttl:before,
+.page-block.blueligh .page-block-title,
+.page-block.blueligh .post-ttl:before,
+.page-block.blueligh blockquote:before,
+.works-block.blueligh .hide-srl,
+.team-block.blueligh .hide-srl,
+.no-touch .blueligh:hover,
+.blueligh.hover,
+.post-site-blueligh-cont .site-post-ttl,
+.post-site-blueligh-cont .post-ttl:before,
+.post-site-blueligh-cont blockquote:before {
+	background: $blueligh;
+	outline-color: rgba($blueligh,.8)!important;
+}
+.bluemed,
+.search-block.bluemed header:before,
+.post-block.bluemed .post-cont-titl,
+.post-block.bluemed .post-ttl:before,
+.page-block.bluemed .page-block-title,
+.page-block.bluemed .post-ttl:before,
+.page-block.bluemed blockquote:before,
+.works-block.bluemed .hide-srl,
+.team-block.bluemed .hide-srl,
+.no-touch .bluemed:hover,
+.bluemed.hover,
+.post-site-bluemed-cont .site-post-ttl,
+.post-site-bluemed-cont .post-ttl:before,
+.post-site-bluemed-cont blockquote:before {
+	background: $bluemed;
+	outline-color: rgba($bluemed,0.8)!important;
+}
+.bluedod,
+.search-block.bluedod header:before,
+.post-block.bluedod .post-cont-titl,
+.post-block.bluedod .post-ttl:before,
+.page-block.bluedod .page-block-title,
+.page-block.bluedod .post-ttl:before,
+.page-block.bluedod blockquote:before,
+.works-block.bluedod .hide-srl,
+.team-block.bluedod .hide-srl,
+.no-touch .bluedod:hover,
+.bluedod.hover,
+.post-site-bluedod-cont .site-post-ttl,
+.post-site-bluedod-cont .post-ttl:before,
+.post-site-bluedod-cont blockquote:before {
+	background: $bluedod;
+	outline-color:rgba($bluedod,0.8)!important;
+}
+.bluedim,
+.search-block.bluedim header:before,
+.post-block.bluedim .post-cont-titl,
+.post-block.bluedim .post-ttl:before,
+.page-block.bluedim .page-block-title,
+.page-block.bluedim .post-ttl:before,
+.page-block.bluedim blockquote:before,
+.works-block.bluedim .hide-srl,
+.team-block.bluedim .hide-srl,
+.no-touch .bluedim:hover,
+.bluedim.hover,
+.post-site-bluedim-cont .site-post-ttl,
+.post-site-bluedim-cont .post-ttl:before,
+.post-site-bluedim-cont blockquote:before {
+	background: $bluedim;
+	outline-color: rgba($bluedim,0.8)!important;
+}
+.blueviol,
+.search-block.blueviol header:before,
+.post-block.blueviol .post-cont-titl,
+.post-block.blueviol .post-ttl:before,
+.page-block.blueviol .page-block-title,
+.page-block.blueviol .post-ttl:before,
+.page-block.blueviol blockquote:before,
+.works-block.blueviol .hide-srl,
+.team-block.blueviol .hide-srl,
+.no-touch .blueviol:hover,
+.blueviol.hover,
+.post-site-blueviol-cont .site-post-ttl,
+.post-site-blueviol-cont .post-ttl:before,
+.post-site-blueviol-cont blockquote:before {
+	background: $blueviol;
+	outline-color: rgba($blueviol,0.8)!important;
+}

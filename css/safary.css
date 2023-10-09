@@ -1,0 +1,13 @@
+body {
+	-webkit-backface-visibility: initial!important;
+}
+
+.no-touch .works-block,
+.no-touch .team-block {
+	overflow: visible;
+}
+.no-touch .works-block>.in,
+.no-touch .team-block>.in {
+	overflow: hidden;
+	position: relative;
+}

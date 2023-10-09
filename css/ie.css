@@ -1,0 +1,12 @@
+.navigation.open .menu>ul {
+	opacity: 1;
+}
+.no-touch .blur {
+	left: -8px;
+	top: -8px;
+}
+.albums-block .name,
+.works-block .name,
+.team-block .name {
+	background: url(../img/shadow.png) repeat-x left bottom transparent;
+}

@@ -1,0 +1,53 @@
+<section class="container site-wrapper">
+
+	<div class="row block-map">
+		<div class="col-xs-12 col-md-6 orangligh block-contact">
+			<h5><strong>Contacts</strong></h5>
+			<div class="icon-m"><span><img src="img/icon-phone-white.svg" alt=""></span>P: +777 (100) 1234</div>
+			<div class="icon-m"><span><img src="img/icon-mail-white.svg" alt=""></span>Email: mail@example.com</div>
+			<div class="icon-m"><span><img src="img/icon-marker-white.svg" alt=""></span>Address: 49 Archdale, 2B Charleston, New Yoark City, USA</div>
+		</div>
+		<div class="col-xs-12 col-md-6 orangnarr block-contact">
+			<h5><strong>Say Hello</strong></h5>
+			<div class="row light">
+				<form id="contactform" method="POST">						
+					<div class="col-xs-12 col-md-6 pr5">
+						<input type="text" required placeholder="Name *" name="name">
+					</div>
+					<div class="col-xs-12 col-md-6 pl5">
+						<input type="email" required placeholder="Email *" name="email">
+					</div>
+					<div class="col-xs-12">
+						<textarea placeholder="Comment" name="comment"></textarea>
+					</div>
+					<div class="col-xs-12 text-right">
+						<input type="submit" value="Submit" id="submit-form">
+					</div>
+					<div id="success"></div>
+				</form>
+			</div>
+		</div>
+		<div class="map-canvas" 
+			 data-map-lon="-34.797" 
+			 data-map-lat="151.22"
+			 data-map-small-lon="-35.697"
+			 data-map-small-lat="151.22"
+			 data-map-marker-lon="-33.844"
+			 data-map-marker-lat="151.209"
+			 data-map-marker-title="Hello!"
+		></div>
+
+
+	</div><!-- row -->
+
+</section><!-- site-blog-wrapper -->
+
+<!-- For Google Mas -->
+
+<script src="js/googlemap.js"></script>
+
+<script>
+	jQuery(document).ready(function(){	
+		contactForm();	
+	});
+</script>
